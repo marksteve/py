@@ -1,3 +1,20 @@
+"""
+secretsanta.py
+
+NOTE: Requires EngageSpark account with credits
+
+Usage:
+    secretsanta.py < names.csv
+
+    CSV of names should have the following columns:
+    - name
+    - number
+    - wishlist
+
+Environment Variables:
+    ENGAGESPARK_API_KEY
+    ENGAGESPARK_ORGANIZATION_ID
+"""
 import os
 import sys
 
